@@ -49,12 +49,14 @@ h1,h2,h3,h4,h5,h6,p,ul {
     border-bottom: 1px solid #ECECEC;
     
 }
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .page-head {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .logo {
@@ -185,7 +187,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 
 .advantage-title {
     
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     color: var(--secondary-color-text);
     font-weight: 700;
     font-size: 14px;
@@ -212,7 +214,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
  }
 
 .job-title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     color: var(--secondary-color-text);
     font-weight: 700;
     font-size: 36px;
@@ -234,7 +236,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .team-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+
     color: var(--secondary-color-text);
     font-weight: 700px;
     font-size: 36px;
@@ -242,8 +245,12 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.team-subtitle {
+.teams {
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team-subtitle {
+    margin-bottom: 10px;
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 16px;
@@ -251,8 +258,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
     letter-spacing: 0.03em;
 }
 .team-text {
-    padding-top: 10px;
-    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -290,7 +295,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-align: center;
     letter-spacing: 0.03em;
     
-    padding: 10px 32px;
+    padding: 6px 22px;
     border-radius: 4px;
     border: none;  
 
@@ -314,9 +319,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
     border: 1px solid #EEEEEE;
     text-align: left;
 }
+.choich {
+    padding: 20px 24px;
+}
 
 .portfolio-choice .choice-title {
-   padding: 20px 24px 4px 24px;
     color: var(--secondary-color-text);
     font-weight: 700;
     font-size: 18px;
@@ -324,7 +331,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
     letter-spacing: 0.06em;
 }
 .portfolio-choice .coice-text {
-    padding: 4px 24px 20px 24px;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -336,7 +342,6 @@ h1,h2,h3,h4,h5,h6,p,ul {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--bg-color-foot);
-    height: 250px;
 }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -349,12 +354,15 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .footer-nav {
-    padding-top: 20px;
+    margin-top: 20px;
+}
+.footer-nav .item + .item {
+    margin-top: 9px;
 }
 
 .footer-nav .contact {
     display: inline-block;
-    padding-top: 10px;
+
     color: var(--color-adress);
     font-size: 14px;
     line-height: 1.7;
